@@ -1,0 +1,38 @@
+body {
+    background: rgb(224, 239, 243);
+}
+
+.menu {
+    color: cadetblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14;
+    font-style: italic;
+}
+
+.headline {
+    color: black;
+    font-size: 18;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(202, 226, 233)
+}
+
+.smalldescription {
+    background-color: rgb(194, 225, 233);
+    font-size: 14;
+    font-style: italic;
+    line-height: 16px;
+}
+
+ul {
+    background-color: rgb(181, 220, 231);
+    list-style-image: url(star.png);
+}
+
+.bigdescription {
+    background-color: rgb(169, 216, 228);
+    font-size: 16;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
