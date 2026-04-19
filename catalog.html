@@ -5,13 +5,29 @@
 <body>
     <a href="index.html" class = "menu">Главная</a> <a href="catalog.html" class = "menu">Каталог</a>
     <hr>
-    <h1 align = 'center'>Каталог</h1>
-    <img src="img/mi.jpg" alt="RedmiBook Pro 16 2025" title="RedmiBook Pro 16 2025" width="420" height="277"/>
-    <a href="mi.html"><p>RedmiBook Pro 16 2025</p></a>
-    <img src="img/lenovo.jpg" alt="Lenovo ThinkBook 16p G4 IRH" title="Lenovo ThinkBook 16p G4 IRH" width="375" height="277"/>
-    <a href="lenovo.html"><p>Lenovo ThinkBook 16p G4 IRH</p></a>
-    <img src="img/apple.jpg" alt="Apple Macbook M4 Pro 16" title="Apple Macbook M4 Pro 16" width="415" height="277"/>
-    <a href="apple.html"><p>Apple Macbook M4 Pro 16</p></a>
+    <h1 align = 'center'>Каталог
+    <select name = "Фильтр" class = "filter">
+        <option label= "Без фильтров" data-id = "1"></option>
+        <option label = "Дешевле 150000₽" data-id = "2"></option>
+        <option label = "Менее двух лет с даты выпуска" data-id = "3"></option>
+        </select>
+    </h1>
+    <div class = "catalog">
+    <div class = "product" data-id = "1">
+        <img src="img/mi.jpg" alt="RedmiBook Pro 16 2025" title="RedmiBook Pro 16 2025" width="420" height="277"/>
+        <a href="mi.html" align = 'center'><p>RedmiBook Pro 16 2025</p></a>
+    </div>
+    <div class = "product" data-id = "2">
+        <img src="img/lenovo.jpg" alt="Lenovo ThinkBook 16p G4 IRH" title="Lenovo ThinkBook 16p G4 IRH" width="375" height="277"/>
+        <a href="lenovo.html" align = 'center'><p>Lenovo ThinkBook 16p G4 IRH</p></a>
+    </div>
+    <div class = "product" data-id = "3">
+        <img src="img/apple.jpg" alt="Apple Macbook M4 Pro 16" title="Apple Macbook M4 Pro 16" width="415" height="277"/>
+        <a href="apple.html" align = 'center'><p>Apple Macbook M4 Pro 16</p></a>
+    </div>
+    </div>
     <hr>
-    <p align = 'right'> Все права защищены © 2026 </p>
+    <div class = "copyright"> Все права защищены © 2026 </div>
+    
+<script src="js/script.js"></script>
 </body>
